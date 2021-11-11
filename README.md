@@ -1,6 +1,6 @@
 # ACCEL vegetation dataset comparison
 
-Evaluating alternative raster-based forest vegetation datasets against field validation plots. The data carpentry and analysis scripts are located in this repository. The data files (raw and processed) are kept outside the repository (due to their large size) on Box in [accel-veg-dataset-comparison_data] (https://ucdavis.box.com/s/59brlcvqmj93g4yw8igonn5pyr5stn8i). The data directory holds both raw (unprocessed input), intermediate, and final files. Therefore, it is not necessary to re-generate the intermediate files every time you want to do an analysis on them (for example).
+Evaluating alternative raster-based forest vegetation datasets against field validation plots. The data carpentry and analysis scripts are located in this repository. The data files (raw and processed) are kept outside the repository (due to their large size) on Box in [accel-veg-dataset-comparison_data](https://ucdavis.box.com/s/59brlcvqmj93g4yw8igonn5pyr5stn8i). The data directory holds both raw (unprocessed input), intermediate, and final files. Therefore, it is not necessary to re-generate the intermediate files every time you want to do an analysis on them (for example).
 
 ### Linking to the data directory
 
