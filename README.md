@@ -39,4 +39,4 @@ The following folders/files are located within the data directory.
 ### Notes and to-dos
 * You can get GNN data from years other than 2017 by contacting Lemma (via the new download page on the website).
 * The Lemma basal area values seem far too large to be in units of m^2/ha (as specified in the documentation).
-* Silviaterra data does not extend acrosee the whole ENF.
+* Silviaterra data does not extend across the whole ENF.
