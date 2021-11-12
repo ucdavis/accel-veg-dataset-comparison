@@ -19,6 +19,8 @@ To access the data directory from the scripts, sync it to your computer. Then se
 
 1. Crop the raw unprocessed vegetation dataset layers (non-Riley) to the project area. Save the resulting layers (pre-cropped to the focal area) in the "raster prepared for analysis" folder at `{data_dir}/02_cropped-to-enf-and-ltbmu`, with file names following the format `{dataset}_{year}_{metric}.tif`. This script relies on raw layer files being organized in `{data_dir}/veg-layers/01_downloaded-or-provided/` with the folder structure `{dataset}/{year}/{metric}.tif`. Performed by `10_crop-rasters-fo-focal-region.R`.
 
+1. Extract vegetation metrics from dataset layers at the validation plot locations, for comparison (validation) against the plot-measured metrics. Save the extracted data in a table (one row per plot) at `{data_dir}/veg-metrics-extracted/veg-layer-data-extracted.csv`.
+
 
 ### Data storage structure
 
@@ -29,9 +31,12 @@ The following folders/files are located within the data directory.
 * Cropped Riley "tree list" raster: `veg-layers/00_riley/02_cropped-to-enf-and-ltbmu/`
 * Raw (non-Riley) vegetation data layers (provided by Nick or downloaded by Derek): `veg-layers/01_downloaded-or-provided/`. Beneath this folder, data layers are organized by dataset, year, and metric with a folder structure as follows: `{dataset}/{year}/{metric}.tif`.
 * Veg layers cropped to the focal area, with standardized file names, ready for extraction/analysis: `veg-layers/02_cropped-to-enf-and-ltbmu/`. Beneath this folder, data layers are named by dataset, year, and metric as follows: `{dataset}_{year}_{metric}.tif`.
+* Validation plot data: `validation-data/`. Currently there's just a dummy file `validation-plots-dummy.csv`.
+* Table of extracted values from veg layers: `/home/derek/Documents/data/accel-veg-dataset-comparison_data/veg-metr`ics-extracted/veg-layer-data-extracted.csv`
 * Ancillary data, such as GNN readme and accuracy assessment that comes with the download: `veg-layers/99_ancillary-data/`.
 
 
 ### Notes and to-dos
 * You can get GNN data from years other than 2017 by contacting Lemma (via the new download page on the website).
 * The Lemma basal area values seem far too large to be in units of m^2/ha (as specified in the documentation).
+* Silviaterra data does not extend acrosee the whole ENF.
