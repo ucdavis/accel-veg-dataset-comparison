@@ -32,7 +32,7 @@ The following folders/files are located within the data directory.
 * Raw (non-Riley) vegetation data layers (provided by Nick or downloaded by Derek): `veg-layers/01_downloaded-or-provided/`. Beneath this folder, data layers are organized by dataset, year, and metric with a folder structure as follows: `{dataset}/{year}/{metric}.tif`.
 * Veg layers cropped to the focal area, with standardized file names, ready for extraction/analysis: `veg-layers/02_cropped-to-enf-and-ltbmu/`. Beneath this folder, data layers are named by dataset, year, and metric as follows: `{dataset}_{year}_{metric}.tif`.
 * Validation plot data: `validation-data/`. Currently there's just a dummy file `validation-plots-dummy.csv`.
-* Table of extracted values from veg layers: `/home/derek/Documents/data/accel-veg-dataset-comparison_data/veg-metr`ics-extracted/veg-layer-data-extracted.csv`
+* Table of extracted values from veg layers: `veg-metrics-extracted/veg-layer-data-extracted.csv`.
 * Ancillary data, such as GNN readme and accuracy assessment that comes with the download: `veg-layers/99_ancillary-data/`.
 
 
